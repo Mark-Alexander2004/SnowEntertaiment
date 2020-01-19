@@ -12,6 +12,7 @@ namespace area_of_figures
             string circle = "circle";
             string triangle = "triangle";
             if (figure == square)
+            //This code is about figures areas
             {
                 double areaSQUARE = double.Parse(Console.ReadLine());
                 Console.WriteLine($"{ areaSQUARE* areaSQUARE:F3}");
